@@ -1,0 +1,25 @@
+{
+  "name": "parcel-bug-worker-node-external-modules",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.288",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "comlink": "^4.3.0",
+    "regenerator-runtime": "^0.13.5"
+  },
+  "targets": {
+    "main": {
+      "context": "node"
+    }
+  }
+}
